@@ -1,0 +1,1302 @@
+2019-05-02 11:19:57  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 18564 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:19:57  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:20:04  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:20:04  INFO - Finished Spring Data repository scanning in 378ms. Found 2 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:20:05  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:20:05  WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.support.BeanDefinitionOverrideException: Invalid bean definition with name 'rawEventsRepository' defined in null: Cannot register bean definition [Root bean: class [org.springframework.data.mongodb.repository.support.MongoRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] for bean 'rawEventsRepository': There is already [Root bean: class [com.microsoft.azure.spring.data.documentdb.repository.support.DocumentDbRepositoryFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null] bound. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:20:05  INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:20:05 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The bean 'rawEventsRepository', defined in null, could not be registered. A bean with that name has already been defined in null and overriding is disabled.
+
+Action:
+
+Consider renaming one of the beans or enabling overriding by setting spring.main.allow-bean-definition-overriding=true
+ - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:31  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 18064 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:31  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:33  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:34  INFO - Finished Spring Data repository scanning in 126ms. Found 2 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:34  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:34  INFO - Finished Spring Data repository scanning in 24ms. Found 2 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:37  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:37  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:37  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:37  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:38  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:38  INFO - Root WebApplicationContext: initialization completed in 6605 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:41  INFO - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:42  INFO - Creating MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:42  INFO - Creating messaging factory from namespace endpoint uri 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:42  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:42  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:42  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:42  INFO - Creating connection to host 'tot-corp-orion-int-qa.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:42  INFO - Exception in monitor thread while connecting to server localhost:27017 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+2019-05-02 11:21:45  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:45  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:45  INFO - Created MessagingFactory to namespace 'sb://tot-corp-orion-int-qa.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:45  INFO - Creating MessageSender to entity 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:45  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:45  INFO - Creating core message sender to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:45  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:45  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:46  INFO - Creating send link to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:46  INFO - Opened send link to 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:46  INFO - Created MessageSender to entity 'tot-corp-orion-pricechanges-topic-mid' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:46  INFO - Created topic client to connection string 'Endpoint=sb://tot-corp-orion-int-qa.servicebus.windows.net/;EntityPath=tot-corp-orion-pricechanges-topic-mid;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:48  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:48  INFO - Initializing DocumentClient with serviceEndpoint [https://api-tottus-retail.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=100, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@39c85c1a, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [Session] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:51  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:51  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:51  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:51  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:51  INFO - Starting ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:51  INFO - Tomcat started on port(s): 8084 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:21:51  INFO - Started ProviderApiApplication in 21.307 seconds (JVM running for 24.006) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:54  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 18832 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:54  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:56  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:56  INFO - Finished Spring Data repository scanning in 93ms. Found 2 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:56  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:56  INFO - Finished Spring Data repository scanning in 18ms. Found 2 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:56  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:56  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:56  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:56  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:57  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:57  INFO - Root WebApplicationContext: initialization completed in 2911 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:59  INFO - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:59  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:59  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:59  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:59  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:59  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:25:59  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:00  INFO - Exception in monitor thread while connecting to server localhost:27017 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+2019-05-02 11:26:01  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:01  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:01  INFO - Created MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:01  INFO - Creating MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:01  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:01  INFO - Creating core message sender to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:01  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:01  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:02  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:02  INFO - Opened send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:02  INFO - Created MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:02  INFO - Created topic client to connection string 'Endpoint=sb://azure-tottus.servicebus.windows.net/;EntityPath=top-provider;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:02  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:02  INFO - Initializing DocumentClient with serviceEndpoint [https://api-tottus-retail.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=100, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@62f11ebb, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [Session] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:04  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:04  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:04  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:04  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:04  INFO - Starting ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:04  INFO - Tomcat started on port(s): 8084 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:04  INFO - Started ProviderApiApplication in 11.406 seconds (JVM running for 15.232) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:36  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 21456 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:36  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:37  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:37  INFO - Finished Spring Data repository scanning in 88ms. Found 2 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:37  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:37  INFO - Finished Spring Data repository scanning in 19ms. Found 2 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:38  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:38  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:38  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:38  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:39  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:39  INFO - Root WebApplicationContext: initialization completed in 2750 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:41  INFO - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:41  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:41  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:41  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:41  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:41  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:41  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:42  INFO - Exception in monitor thread while connecting to server localhost:27017 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+2019-05-02 11:26:43  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:43  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:43  INFO - Created MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:43  INFO - Creating MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:43  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:43  INFO - Creating core message sender to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:43  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:43  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:44  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:44  INFO - Opened send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:44  INFO - Created MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:44  INFO - Created topic client to connection string 'Endpoint=sb://azure-tottus.servicebus.windows.net/;EntityPath=top-provider;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:44  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:44  INFO - Initializing DocumentClient with serviceEndpoint [https://api-tottus-retail.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=100, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@23ed382c, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [Session] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:45  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:46  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:46  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:46  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:46  INFO - Starting ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:46  INFO - Tomcat started on port(s): 8084 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:26:46  INFO - Started ProviderApiApplication in 10.855 seconds (JVM running for 13.151) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:28:53  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:28:53  INFO - Initializing Servlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:28:54  INFO - Completed initialization in 237 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:29:15  INFO - nullnullnull - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:29:15  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:29:15  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:29:15  INFO - Sending PriceCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:29:15 ERROR - providerCreated event could not be send. Cause: Invalid parameter for country: null - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:29:15  INFO - Provider not Created  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:09  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 19616 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:09  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:10  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:10  INFO - Finished Spring Data repository scanning in 99ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:10  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:10  INFO - Finished Spring Data repository scanning in 16ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:11  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:11  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:11  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:11  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:11  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:11  INFO - Root WebApplicationContext: initialization completed in 2567 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:13  INFO - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:14  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:14  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:14  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:14  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:14  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:14  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:14  INFO - Exception in monitor thread while connecting to server localhost:27017 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+2019-05-02 11:31:16  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:16  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:16  INFO - Created MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:16  INFO - Creating MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:16  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:16  INFO - Creating core message sender to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:16  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:16  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  INFO - Opened send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  INFO - Created MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  INFO - Created topic client to connection string 'Endpoint=sb://azure-tottus.servicebus.windows.net/;EntityPath=top-provider;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'providerController' defined in file [X:\Entregables\8.SUP\TottusApi\out\production\classes\rtl\tot\corp\mrex\sinv\provider\cmd\controllers\ProviderController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'providerEventStore' defined in file [X:\Entregables\8.SUP\TottusApi\out\production\classes\rtl\tot\corp\mrex\sinv\provider\cmd\services\ProviderEventStore.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'rtl.tot.corp.mrex.sinv.provider.cmd.repositories.RawEventsRepository' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  INFO - Stopping service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  INFO - Closing message sender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  INFO - Closing send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  INFO - Send link to 'top-provider' closed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  INFO - Closed message sender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  INFO - Closing MessagingFactory associated with namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  INFO - Closing messaging factory - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  INFO - Closing CBS link - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  INFO - Closing requestresponselink to $cbs by closing both internal sender and receiver links. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17 ERROR - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in rtl.tot.corp.mrex.sinv.provider.cmd.services.ProviderEventStore required a bean of type 'rtl.tot.corp.mrex.sinv.provider.cmd.repositories.RawEventsRepository' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'rtl.tot.corp.mrex.sinv.provider.cmd.repositories.RawEventsRepository' in your configuration.
+ - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  INFO - Closed internal send link of requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  INFO - Closed internal receive link of requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  INFO - Closing all cached request-response links - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:17  INFO - Closing connection to host - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:18  INFO - Connection to host closed. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:18  INFO - Gracefully releasing reactor thread as messaging factory is closed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:31:18  INFO - Stopping reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:10  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 21752 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:10  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:12  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:12  INFO - Finished Spring Data repository scanning in 187ms. Found 2 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:12  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:12  INFO - Finished Spring Data repository scanning in 25ms. Found 2 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:13  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:13  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:13  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:13  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:13  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:13  INFO - Root WebApplicationContext: initialization completed in 3645 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:16  INFO - Cluster created with settings {hosts=[localhost:27017], mode=SINGLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:17  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:17  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:17  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:17  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:17  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:17  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:17  INFO - Exception in monitor thread while connecting to server localhost:27017 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.mongodb.MongoSocketOpenException: Exception opening socket
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:67)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:117)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	... 3 common frames omitted
+2019-05-02 11:33:20  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:20  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:20  INFO - Created MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:20  INFO - Creating MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:20  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:20  INFO - Creating core message sender to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:20  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:20  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:20  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:20  INFO - Opened send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:20  INFO - Created MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:20  INFO - Created topic client to connection string 'Endpoint=sb://azure-tottus.servicebus.windows.net/;EntityPath=top-provider;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:21  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:21  INFO - Initializing DocumentClient with serviceEndpoint [https://api-tottus-retail.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=100, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@6bedd4e4, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [Session] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:23  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:23  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:23  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:23  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:23  INFO - Starting ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:23  INFO - Tomcat started on port(s): 8084 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:23  INFO - Started ProviderApiApplication in 14.789 seconds (JVM running for 17.925) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:36  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:36  INFO - Initializing Servlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:33:36  INFO - Completed initialization in 6 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:34:41  INFO - nullnullnull - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:34:41  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:34:41  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:34:41  INFO - Sending PriceCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:34:42 ERROR - providerCreated event could not be send. Cause: Invalid parameter for country: null - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:34:42  INFO - Provider not Created  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:31  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 6968 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:31  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:32  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:32  INFO - Finished Spring Data repository scanning in 63ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:32  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:32  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:32  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:32  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:33  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:33  INFO - Root WebApplicationContext: initialization completed in 2002 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:33  INFO - Initializing DocumentClient with serviceEndpoint [https://api-tottus-retail.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=100, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@1ff55ff, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [Session] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:35  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:35  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:35  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:36  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:36  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:36  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:37  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:37  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:37  INFO - Created MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:37  INFO - Creating MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:37  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:37  INFO - Creating core message sender to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:37  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:37  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:38  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:38  INFO - Opened send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:38  INFO - Created MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:38  INFO - Created topic client to connection string 'Endpoint=sb://azure-tottus.servicebus.windows.net/;EntityPath=top-provider;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:38  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:38  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:39  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:39  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:39  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:39  INFO - Starting ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:39  INFO - Tomcat started on port(s): 8084 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:39  INFO - Started ProviderApiApplication in 8.808 seconds (JVM running for 10.612) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:46  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:46  INFO - Initializing Servlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:38:46  INFO - Completed initialization in 7 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:40:00  INFO - nullnullnull - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:40:00  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:40:00  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:40:00  INFO - Sending PriceCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:40:00 ERROR - providerCreated event could not be send. Cause: Invalid parameter for country: null - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:40:00  INFO - Provider not Created  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:40:03  INFO - nullnullnull - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:40:03  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:40:03  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:40:03  INFO - Sending PriceCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:40:03 ERROR - providerCreated event could not be send. Cause: Invalid parameter for country: null - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:40:03  INFO - Provider not Created  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:09  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 9132 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:09  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:10  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:10  INFO - Finished Spring Data repository scanning in 63ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:11  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:11  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:11  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:11  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:11  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:11  INFO - Root WebApplicationContext: initialization completed in 2563 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:11  INFO - Initializing DocumentClient with serviceEndpoint [https://api-tottus-retail.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=100, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@25a5c7db, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [Session] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:14  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:14  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:14  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:14  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:14  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:14  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:15  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:15  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:15  INFO - Created MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:15  INFO - Creating MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:15  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:15  INFO - Creating core message sender to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:16  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:16  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:16  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:16  INFO - Opened send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:16  INFO - Created MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:16  INFO - Created topic client to connection string 'Endpoint=sb://azure-tottus.servicebus.windows.net/;EntityPath=top-provider;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:17  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:17  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:17  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:18  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:18  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:19  INFO - Starting ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:19  INFO - Tomcat started on port(s): 8084 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:19  INFO - Started ProviderApiApplication in 10.396 seconds (JVM running for 12.255) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:19  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:19  INFO - Initializing Servlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:19  INFO - Completed initialization in 8 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:45:22  WARN - Illegal DefaultValue  for parameter type integer - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+java.lang.NumberFormatException: For input string: ""
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:601)
+	at java.lang.Long.valueOf(Long.java:803)
+	at io.swagger.models.parameters.AbstractSerializableParameter.getExample(AbstractSerializableParameter.java:412)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:688)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serializeContents(IndexedListSerializer.java:119)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:79)
+	at com.fasterxml.jackson.databind.ser.impl.IndexedListSerializer.serialize(IndexedListSerializer.java:18)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serializeFields(MapSerializer.java:722)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:643)
+	at com.fasterxml.jackson.databind.ser.std.MapSerializer.serialize(MapSerializer.java:33)
+	at com.fasterxml.jackson.databind.ser.BeanPropertyWriter.serializeAsField(BeanPropertyWriter.java:727)
+	at com.fasterxml.jackson.databind.ser.std.BeanSerializerBase.serializeFields(BeanSerializerBase.java:719)
+	at com.fasterxml.jackson.databind.ser.BeanSerializer.serialize(BeanSerializer.java:155)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider._serialize(DefaultSerializerProvider.java:480)
+	at com.fasterxml.jackson.databind.ser.DefaultSerializerProvider.serializeValue(DefaultSerializerProvider.java:319)
+	at com.fasterxml.jackson.databind.ObjectMapper._configAndWriteValue(ObjectMapper.java:3905)
+	at com.fasterxml.jackson.databind.ObjectMapper.writeValueAsString(ObjectMapper.java:3219)
+	at springfox.documentation.spring.web.json.JsonSerializer.toJson(JsonSerializer.java:38)
+	at springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(Swagger2Controller.java:105)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:897)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-02 11:47:48  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 21908 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:48  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:50  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:50  INFO - Finished Spring Data repository scanning in 65ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:51  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:51  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:51  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:51  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:51  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:51  INFO - Root WebApplicationContext: initialization completed in 3293 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:52  INFO - Initializing DocumentClient with serviceEndpoint [https://api-tottus-retail.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=100, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@188b6035, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [Session] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:54  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:54  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:54  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:54  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:54  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:54  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:56  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:56  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:56  INFO - Created MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:56  INFO - Creating MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:56  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:56  INFO - Creating core message sender to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:56  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:56  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:56  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:56  INFO - Opened send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:56  INFO - Created MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:56  INFO - Created topic client to connection string 'Endpoint=sb://azure-tottus.servicebus.windows.net/;EntityPath=top-provider;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:57  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:57  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:57  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:57  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:57  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:57  INFO - Starting ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:57  INFO - Tomcat started on port(s): 8084 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:47:57  INFO - Started ProviderApiApplication in 9.779 seconds (JVM running for 11.73) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:48:42  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:48:42  INFO - Initializing Servlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:48:42  INFO - Completed initialization in 22 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:49:09  INFO - nullnullnull - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:49:09  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:49:09  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:49:09  INFO - Sending PriceCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:49:09 ERROR - providerCreated event could not be send. Cause: Invalid parameter for country: null - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:49:09  INFO - Provider not Created  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:49:19  INFO - nullnullnull - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:49:19  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:49:19  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:49:19  INFO - Sending PriceCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:49:19 ERROR - providerCreated event could not be send. Cause: Invalid parameter for country: null - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:49:19  INFO - Provider not Created  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:02  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 20612 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:02  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:03  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:03  INFO - Finished Spring Data repository scanning in 55ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:04  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:04  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:04  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:04  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:04  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:04  INFO - Root WebApplicationContext: initialization completed in 1657 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:04  INFO - Initializing DocumentClient with serviceEndpoint [https://api-tottus-retail.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=100, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@27a97e08, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [Session] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:06  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:06  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:06  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:06  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:06  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:06  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:08  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:08  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:08  INFO - Created MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:08  INFO - Creating MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:08  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:08  INFO - Creating core message sender to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:08  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:08  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:08  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:08  INFO - Opened send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:08  INFO - Created MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:08  INFO - Created topic client to connection string 'Endpoint=sb://azure-tottus.servicebus.windows.net/;EntityPath=top-provider;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:09  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:09  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:09  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:09  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:09  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:09  INFO - Starting ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:09  INFO - Tomcat started on port(s): 8084 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:09  INFO - Started ProviderApiApplication in 7.414 seconds (JVM running for 9.152) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:36  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:36  INFO - Initializing Servlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:36  INFO - Completed initialization in 7 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:53  INFO - PECOMMRX - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:53  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:53  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:53  INFO - Sending PriceCreateEvent integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:54  INFO - Event published: {"name":"Apple","rut":"Apple","country":"PE"} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 11:53:54  INFO - Provider Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:00:41  WARN - Connection.onTransportError: hostname:azure-tottus.servicebus.windows.net:5671, error:connection aborted - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:00:41 ERROR - Connection error. 'Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:00:41  INFO - Closing connection to host - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:00:41  WARN - Internal send link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalSender.onClose(RequestResponseLink.java:837)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory.closeConnection(MessagingFactory.java:373)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory.onConnectionError(MessagingFactory.java:298)
+	at com.microsoft.azure.servicebus.amqp.ConnectionHandler.onTransportError(ConnectionHandler.java:84)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:191)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-02 12:00:41  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:00:41  WARN - Internal receive link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalReceiver.onClose(RequestResponseLink.java:630)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory.closeConnection(MessagingFactory.java:373)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory.onConnectionError(MessagingFactory.java:298)
+	at com.microsoft.azure.servicebus.amqp.ConnectionHandler.onTransportError(ConnectionHandler.java:84)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:191)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-02 12:00:41  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:14  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 18696 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:14  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:17  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:17  INFO - Finished Spring Data repository scanning in 100ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:18  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:18  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:18  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:18  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:19  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:19  INFO - Root WebApplicationContext: initialization completed in 4765 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:19  INFO - Initializing DocumentClient with serviceEndpoint [https://api-tottus-retail.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=100, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@4d3ca6c7, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [Session] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:22  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:22  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:22  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:22  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:22  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:22  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:44  WARN - Connection.onTransportError: hostname:azure-tottus.servicebus.windows.net:5671, error:connection aborted - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:44 ERROR - Connection error. 'Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:44  INFO - Connection to host closed. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:44  WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'decoratorCreateProviderCommandBus': Unsatisfied dependency expressed through field 'publisher'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eventPublisherService' defined in file [X:\Entregables\8.SUP\TottusApi\out\production\classes\rtl\tot\corp\mrex\sinv\provider\cmd\infraestructure\EventPublisherService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'asbPublisher': Invocation of init method failed; nested exception is com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:44  INFO - Stopping service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:44  INFO - Gracefully releasing reactor thread as messaging factory is closed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:44  INFO - Stopping reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:44  INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:18:44 ERROR - Application run failed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'decoratorCreateProviderCommandBus': Unsatisfied dependency expressed through field 'publisher'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eventPublisherService' defined in file [X:\Entregables\8.SUP\TottusApi\out\production\classes\rtl\tot\corp\mrex\sinv\provider\cmd\infraestructure\EventPublisherService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'asbPublisher': Invocation of init method failed; nested exception is com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at ProviderApiApplication.main(ProviderApiApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eventPublisherService' defined in file [X:\Entregables\8.SUP\TottusApi\out\production\classes\rtl\tot\corp\mrex\sinv\provider\cmd\infraestructure\EventPublisherService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'asbPublisher': Invocation of init method failed; nested exception is com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'asbPublisher': Invocation of init method failed; nested exception is com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:139)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 32 common frames omitted
+Caused by: com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory.onConnectionError(MessagingFactory.java:293)
+	at com.microsoft.azure.servicebus.amqp.ConnectionHandler.onTransportError(ConnectionHandler.java:84)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:191)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-02 12:20:52  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 15632 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:20:52  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:20:53  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:20:53  INFO - Finished Spring Data repository scanning in 58ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:20:54  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:20:54  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:20:54  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:20:54  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:20:54  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:20:54  INFO - Root WebApplicationContext: initialization completed in 1767 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:20:54  INFO - Initializing DocumentClient with serviceEndpoint [https://api-tottus-retail.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=100, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@51d9b06c, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [Session] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:20:56  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:20:56  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:20:56  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:20:56  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:20:56  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:20:56  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:21:17  WARN - Connection.onTransportError: hostname:azure-tottus.servicebus.windows.net:5671, error:connection aborted - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:21:17 ERROR - Connection error. 'Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:21:17  INFO - Connection to host closed. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:21:17  WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'decoratorCreateProviderCommandBus': Unsatisfied dependency expressed through field 'publisher'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eventPublisherService' defined in file [X:\Entregables\8.SUP\TottusApi\out\production\classes\rtl\tot\corp\mrex\sinv\provider\cmd\infraestructure\EventPublisherService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'asbPublisher': Invocation of init method failed; nested exception is com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:21:17  INFO - Stopping service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:21:17  INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:21:17  INFO - Gracefully releasing reactor thread as messaging factory is closed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:21:17  INFO - Stopping reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:21:17 ERROR - Application run failed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'decoratorCreateProviderCommandBus': Unsatisfied dependency expressed through field 'publisher'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eventPublisherService' defined in file [X:\Entregables\8.SUP\TottusApi\out\production\classes\rtl\tot\corp\mrex\sinv\provider\cmd\infraestructure\EventPublisherService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'asbPublisher': Invocation of init method failed; nested exception is com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at ProviderApiApplication.main(ProviderApiApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eventPublisherService' defined in file [X:\Entregables\8.SUP\TottusApi\out\production\classes\rtl\tot\corp\mrex\sinv\provider\cmd\infraestructure\EventPublisherService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'asbPublisher': Invocation of init method failed; nested exception is com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'asbPublisher': Invocation of init method failed; nested exception is com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:139)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 32 common frames omitted
+Caused by: com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory.onConnectionError(MessagingFactory.java:293)
+	at com.microsoft.azure.servicebus.amqp.ConnectionHandler.onTransportError(ConnectionHandler.java:84)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:191)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-02 12:24:10  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 25508 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:10  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:11  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:11  INFO - Finished Spring Data repository scanning in 60ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:11  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:11  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:11  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:11  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:11  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:11  INFO - Root WebApplicationContext: initialization completed in 1719 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:11  INFO - Initializing DocumentClient with serviceEndpoint [https://api-tottus-retail.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=100, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@3bd3d05e, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [Session] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:13  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:13  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:13  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:13  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:13  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:13  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:35  WARN - Connection.onTransportError: hostname:azure-tottus.servicebus.windows.net:5671, error:connection aborted - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:35 ERROR - Connection error. 'Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:35  INFO - Connection to host closed. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:35  WARN - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'decoratorCreateProviderCommandBus': Unsatisfied dependency expressed through field 'publisher'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eventPublisherService' defined in file [X:\Entregables\8.SUP\TottusApi\out\production\classes\rtl\tot\corp\mrex\sinv\provider\cmd\infraestructure\EventPublisherService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'asbPublisher': Invocation of init method failed; nested exception is com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:35  INFO - Stopping service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:35  INFO - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:35  INFO - Gracefully releasing reactor thread as messaging factory is closed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:35  INFO - Stopping reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:24:35 ERROR - Application run failed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'decoratorCreateProviderCommandBus': Unsatisfied dependency expressed through field 'publisher'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eventPublisherService' defined in file [X:\Entregables\8.SUP\TottusApi\out\production\classes\rtl\tot\corp\mrex\sinv\provider\cmd\infraestructure\EventPublisherService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'asbPublisher': Invocation of init method failed; nested exception is com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:596)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1411)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:592)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:849)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:877)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:549)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:142)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:775)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:316)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1260)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1248)
+	at ProviderApiApplication.main(ProviderApiApplication.java:10)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'eventPublisherService' defined in file [X:\Entregables\8.SUP\TottusApi\out\production\classes\rtl\tot\corp\mrex\sinv\provider\cmd\infraestructure\EventPublisherService.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'asbPublisher': Invocation of init method failed; nested exception is com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:769)
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:218)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1187)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	... 19 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'asbPublisher': Invocation of init method failed; nested exception is com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeInitialization(InitDestroyAnnotationBeanPostProcessor.java:139)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInitialization(AbstractAutowireCapableBeanFactory.java:414)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1770)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:593)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:515)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:277)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1247)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1167)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:857)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:760)
+	... 32 common frames omitted
+Caused by: com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory.onConnectionError(MessagingFactory.java:293)
+	at com.microsoft.azure.servicebus.amqp.ConnectionHandler.onTransportError(ConnectionHandler.java:84)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:191)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-02 12:27:06  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 24752 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:06  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:09  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:09  INFO - Finished Spring Data repository scanning in 146ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:10  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:10  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:10  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:10  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:11  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:11  INFO - Root WebApplicationContext: initialization completed in 3911 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:11  INFO - Initializing DocumentClient with serviceEndpoint [https://api-tottus-retail.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=100, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@2ff15f8c, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [Session] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:16  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:16  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:16  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:16  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:16  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:16  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:19  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:19  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:19  INFO - Created MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:19  INFO - Creating MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:19  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:19  INFO - Creating core message sender to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:20  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:20  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:21  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:21  INFO - Opened send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:21  INFO - Created MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:21  INFO - Created topic client to connection string 'Endpoint=sb://azure-tottus.servicebus.windows.net/;EntityPath=top-provider;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:22  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:22  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:22  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:22  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:22  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:23  INFO - Starting ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:23  INFO - Tomcat started on port(s): 8084 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:23  INFO - Started ProviderApiApplication in 17.718 seconds (JVM running for 24.562) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:28  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:28  INFO - Initializing Servlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:27:28  INFO - Completed initialization in 10 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:31:58  INFO - Update Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:31:58  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:31:58  INFO - Sending Provider Creation integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:31:58 ERROR - providerCreated event could not be send. Cause: Invalid parameter for version: null - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:31:58  INFO - Provider not Updated  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 12:37:21  WARN - Send link to 'top-provider' closed. Failing all pending send requests. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:39  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 26880 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:39  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:42  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:42  INFO - Finished Spring Data repository scanning in 65ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:44  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:44  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:44  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:44  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:44  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:44  INFO - Root WebApplicationContext: initialization completed in 4504 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:44  INFO - Initializing DocumentClient with serviceEndpoint [https://api-tottus-retail.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=100, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@736309a9, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [Session] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:47  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:47  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:47  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:47  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:47  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:47  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:49  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:49  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:49  INFO - Created MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:49  INFO - Creating MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:49  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:49  INFO - Creating core message sender to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:50  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:50  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:50  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:50  INFO - Opened send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:50  INFO - Created MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:50  INFO - Created topic client to connection string 'Endpoint=sb://azure-tottus.servicebus.windows.net/;EntityPath=top-provider;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:51  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:51  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:52  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:52  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:52  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:52  INFO - Starting ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:52  INFO - Tomcat started on port(s): 8084 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:34:52  INFO - Started ProviderApiApplication in 13.608 seconds (JVM running for 16.393) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:44:50  WARN - Send link to 'top-provider' closed. Failing all pending send requests. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:49:51  WARN - Internal send link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:7b65ebd203bf4e3586226e269abed0c9_G51, SystemTracker:gateway7, Timestamp:2019-05-02T20:49:50', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalSender.onClose(RequestResponseLink.java:837)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-02 15:49:51  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:49:51  WARN - Internal receive link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:7b65ebd203bf4e3586226e269abed0c9_G51, SystemTracker:gateway7, Timestamp:2019-05-02T20:49:50', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalReceiver.onClose(RequestResponseLink.java:630)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-02 15:49:51  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:49:51 ERROR - Connection error. 'Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:7b65ebd203bf4e3586226e269abed0c9_G51, SystemTracker:gateway7, Timestamp:2019-05-02T20:49:50', info=null}' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 15:49:51  INFO - Closing connection to host - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:12:41  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:12:43  INFO - Initializing Servlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:12:55  INFO - Completed initialization in 12066 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:14:23  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:14:24  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:14:24  INFO - Sending Provider Creation integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:14:25  INFO - Recreating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:14:25  INFO - RequestResponseLink - recreating internal send and receive links to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:14:25  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:14:28  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:14:28  INFO - Recreated internal links to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:14:28  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:14:29  INFO - Event published: {"name":"Apple","rut":"Apple","country":"PE"} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:14:29  INFO - Provider Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:24  INFO - HV000001: Hibernate Validator 6.0.16.Final - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:25  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 23124 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:25  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:32  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:32  INFO - Finished Spring Data repository scanning in 270ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:36  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:36  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:36  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:36  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:38  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:38  INFO - Root WebApplicationContext: initialization completed in 12804 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:39  INFO - Initializing DocumentClient with serviceEndpoint [https://api-tottus-retail.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=100, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@2a03d65c, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [Session] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:47  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:47  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:47  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:47  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:47  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:47  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:51  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:51  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:51  INFO - Created MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:51  INFO - Creating MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:51  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:51  INFO - Creating core message sender to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:51  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:51  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:52  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:52  INFO - Opened send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:52  INFO - Created MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:52  INFO - Created topic client to connection string 'Endpoint=sb://azure-tottus.servicebus.windows.net/;EntityPath=top-provider;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:54  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:55  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:56  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:56  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:56  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:57  INFO - Starting ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:57  INFO - Tomcat started on port(s): 8084 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:17:57  INFO - Started ProviderApiApplication in 35.573 seconds (JVM running for 41.93) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:04  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 144 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:04  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:06  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:06  INFO - Finished Spring Data repository scanning in 175ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:07  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:07  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:07  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:07  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:08  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:08  INFO - Root WebApplicationContext: initialization completed in 4056 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:08  INFO - Initializing DocumentClient with serviceEndpoint [https://api-tottus-retail.documents.azure.com:443/], ConnectionPolicy [ConnectionPolicy [requestTimeout=60, mediaRequestTimeout=300, connectionMode=Gateway, mediaReadMode=Buffered, maxPoolSize=100, idleConnectionTimeout=60, userAgentSuffix=, retryOptions=com.microsoft.azure.documentdb.RetryOptions@25e49cb2, enableEndpointDiscovery=true, preferredLocations=null]], ConsistencyLevel [Session] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:13  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:13  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:13  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:13  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:13  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:13  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:15  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:15  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:15  INFO - Created MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:15  INFO - Creating MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:15  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:15  INFO - Creating core message sender to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:15  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:15  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:16  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:16  INFO - Opened send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:16  INFO - Created MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:16  INFO - Created topic client to connection string 'Endpoint=sb://azure-tottus.servicebus.windows.net/;EntityPath=top-provider;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:16  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:16  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:17  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:17  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:17  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:17  INFO - Starting ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:17  INFO - Tomcat started on port(s): 8084 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:17  INFO - Started ProviderApiApplication in 14.217 seconds (JVM running for 17.339) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:29  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:29  INFO - Initializing Servlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:29  INFO - Completed initialization in 9 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:29  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:29  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:29  INFO - Sending Provider Creation integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:29  INFO - Event published: {"name":"Apple","rut":"24527271-5","country":"PE"} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:39:29  INFO - Provider Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:49:29  WARN - Send link to 'top-provider' closed. Failing all pending send requests. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:51:05  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:51:05  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:51:05  INFO - Sending Provider Creation integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:51:05  INFO - Recreating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:51:05  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:51:06  INFO - Event published: {"name":"Apple","rut":"24527271-5","country":"PE"} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:51:06  INFO - Provider Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:54:40  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:54:40  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:54:40  INFO - Sending Provider Creation integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:54:41  INFO - Event published: {"name":"Apple","rut":"24527271-5","country":"PE"} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:54:41  INFO - Provider Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:56:21  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:56:21  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:56:21  INFO - Sending Provider Creation integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:56:21  INFO - Event published: {"name":"Apple","rut":"24527271-5","country":"PE"} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:56:21  INFO - Provider Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:57:38  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:57:38  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:57:38  INFO - Sending Provider Creation integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:57:39  INFO - Event published: {"name":"Orange","rut":"24527271-5","country":"PE"} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 16:57:39  INFO - Provider Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:07:39  WARN - Send link to 'top-provider' closed. Failing all pending send requests. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:12:39  WARN - Internal send link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:5b80cef3145c469f8733994732a5fafe_G50, SystemTracker:gateway7, Timestamp:2019-05-02T22:12:39', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalSender.onClose(RequestResponseLink.java:837)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-02 17:12:39  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:12:39  WARN - Internal receive link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:5b80cef3145c469f8733994732a5fafe_G50, SystemTracker:gateway7, Timestamp:2019-05-02T22:12:39', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalReceiver.onClose(RequestResponseLink.java:630)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-02 17:12:39  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:12:39 ERROR - Connection error. 'Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:5b80cef3145c469f8733994732a5fafe_G50, SystemTracker:gateway7, Timestamp:2019-05-02T22:12:39', info=null}' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:12:39  INFO - Closing connection to host - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:29:56  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:29:56  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:29:56  INFO - Sending Provider Creation integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:29:56  INFO - Recreating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:29:56  INFO - RequestResponseLink - recreating internal send and receive links to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:29:56  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:29:59  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:29:59  INFO - Recreated internal links to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:30:00  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:30:00  INFO - Event published: {"name":"Orange","rut":"24527271-5","country":"PE"} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:30:00  INFO - Provider Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:40:00  WARN - Send link to 'top-provider' closed. Failing all pending send requests. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:45:00  WARN - Internal send link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:ff70011b3d40481a991a6ad9de708b47_G39, SystemTracker:gateway7, Timestamp:2019-05-02T22:45:00', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalSender.onClose(RequestResponseLink.java:837)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-02 17:45:00  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:45:00  WARN - Internal receive link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:ff70011b3d40481a991a6ad9de708b47_G39, SystemTracker:gateway7, Timestamp:2019-05-02T22:45:00', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalReceiver.onClose(RequestResponseLink.java:630)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-02 17:45:00  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:45:00 ERROR - Connection error. 'Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:ff70011b3d40481a991a6ad9de708b47_G39, SystemTracker:gateway7, Timestamp:2019-05-02T22:45:00', info=null}' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:45:00  INFO - Closing connection to host - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:59:15  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:59:15  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:59:15  INFO - Sending Provider Creation integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:59:15  INFO - Recreating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:59:15  INFO - RequestResponseLink - recreating internal send and receive links to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:59:15  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:59:18  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:59:18  INFO - Recreated internal links to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:59:18  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:59:18  INFO - Event published: {"name":"Orange","rut":"24527271-5","country":"PE"} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 17:59:19  INFO - Provider Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:01:13  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:01:13  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:01:13  INFO - Sending Provider Creation integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:01:13  INFO - Event published: {"name":"Apple","rut":"24527271-2","country":"PE"} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:01:13  INFO - Provider Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:05:21  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:05:21  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:05:21  INFO - Sending Provider Creation integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:05:21  INFO - Event published: {"name":"PineApple","rut":"24527271-1","country":"PE"} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:05:21  INFO - Provider Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:14:03  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:14:03  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:14:03  INFO - Sending Provider Creation integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:14:03  INFO - Event published: {"name":"PineApple","rut":"24527271-1","country":"PE"} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:14:03  INFO - Provider Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:16:16  INFO - Create Provider request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:16:16  INFO - Provider Saved successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:16:16  INFO - Sending Provider Creation integration Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:16:16  INFO - Event published: {"name":"Banana","rut":"24527271-3","country":"PE"} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:16:16  INFO - Provider Created successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:26:16  WARN - Send link to 'top-provider' closed. Failing all pending send requests. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:31:16  WARN - Internal send link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:17e6c9f6a9bb47e5b77097fa0a69cf9d_G56, SystemTracker:gateway7, Timestamp:2019-05-02T23:31:16', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalSender.onClose(RequestResponseLink.java:837)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-02 18:31:16  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:31:16  WARN - Internal receive link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:17e6c9f6a9bb47e5b77097fa0a69cf9d_G56, SystemTracker:gateway7, Timestamp:2019-05-02T23:31:16', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalReceiver.onClose(RequestResponseLink.java:630)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-02 18:31:16  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:31:16 ERROR - Connection error. 'Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:17e6c9f6a9bb47e5b77097fa0a69cf9d_G56, SystemTracker:gateway7, Timestamp:2019-05-02T23:31:16', info=null}' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-02 18:31:16  INFO - Closing connection to host - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 

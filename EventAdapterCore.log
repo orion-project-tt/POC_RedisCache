@@ -1,0 +1,392 @@
+2019-05-03 15:49:43  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 17768 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:43  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:45  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:46  INFO - Finished Spring Data repository scanning in 69ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:46  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:46  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:46  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:46  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:46  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:46  INFO - Root WebApplicationContext: initialization completed in 3070 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:50  INFO - Cluster created with settings {hosts=[api-tottus-retail.documents.azure.com:10255], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='globaldb'} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:50  INFO - Adding discovered server api-tottus-retail.documents.azure.com:10255 to client view of cluster - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:50  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:50  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:50  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:50  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:50  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:51  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:52  INFO - Opened connection [connectionId{localValue:1, serverValue:-1160808705}] to api-tottus-retail.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:52  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:52  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:52  INFO - Created MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:52  INFO - Creating MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:52  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:52  INFO - Creating core message sender to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:52  INFO - Monitor thread successfully connected to server with description ServerDescription{address=api-tottus-retail.documents.azure.com:10255, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 0]}, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=165401800, setName='globaldb', canonicalAddress=cdb-ms-prod-eastus2-fd11.documents.azure.com:10255, hosts=[cdb-ms-prod-eastus2-fd11.documents.azure.com:10255], passives=[], arbiters=[], primary='cdb-ms-prod-eastus2-fd11.documents.azure.com:10255', tagSet=TagSet{[]}, electionId=null, setVersion=1, lastWriteDate=null, lastUpdateTimeNanos=4881869038900} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:52  INFO - Adding discovered server cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 to client view of cluster - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:52  INFO - Server api-tottus-retail.documents.azure.com:10255 is no longer a member of the replica set.  Removing from client view of cluster. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:52  INFO - Canonical address cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 does not match server address.  Removing api-tottus-retail.documents.azure.com:10255 from client view of cluster - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:53  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:53  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:53  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:53  INFO - Opened send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:53  INFO - Created MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:53  INFO - Created topic client to connection string 'Endpoint=sb://azure-tottus.servicebus.windows.net/;EntityPath=top-provider;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:54  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:54  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:54  INFO - Opened connection [connectionId{localValue:2, serverValue:2088529700}] to cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:54  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:54  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:54  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:54  INFO - Monitor thread successfully connected to server with description ServerDescription{address=cdb-ms-prod-eastus2-fd11.documents.azure.com:10255, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 0]}, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=162849800, setName='globaldb', canonicalAddress=cdb-ms-prod-eastus2-fd11.documents.azure.com:10255, hosts=[cdb-ms-prod-eastus2-fd11.documents.azure.com:10255], passives=[], arbiters=[], primary='cdb-ms-prod-eastus2-fd11.documents.azure.com:10255', tagSet=TagSet{[]}, electionId=null, setVersion=1, lastWriteDate=null, lastUpdateTimeNanos=4883424247100} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:54  INFO - Setting max set version to 1 from replica set primary cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:54  INFO - Discovered replica set primary cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:54  INFO - Starting ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:54  INFO - Tomcat started on port(s): 8084 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:49:54  INFO - Started ProviderApiApplication in 13.23 seconds (JVM running for 16.279) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:50:06  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:50:06  INFO - Initializing Servlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:50:06  INFO - Completed initialization in 7 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:52:15  WARN - Connection.onTransportError: hostname:azure-tottus.servicebus.windows.net:5671, error:connection aborted - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:52:15 ERROR - Connection error. 'Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:52:15  INFO - Closing connection to host - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:52:15  WARN - Internal send link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalSender.onClose(RequestResponseLink.java:837)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory.closeConnection(MessagingFactory.java:373)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory.onConnectionError(MessagingFactory.java:298)
+	at com.microsoft.azure.servicebus.amqp.ConnectionHandler.onTransportError(ConnectionHandler.java:84)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:191)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-03 15:52:15  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:52:15  WARN - Internal receive link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:framing-error, description='connection aborted', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalReceiver.onClose(RequestResponseLink.java:630)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory.closeConnection(MessagingFactory.java:373)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory.onConnectionError(MessagingFactory.java:298)
+	at com.microsoft.azure.servicebus.amqp.ConnectionHandler.onTransportError(ConnectionHandler.java:84)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:191)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-03 15:52:15  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:52:17  INFO - Exception in monitor thread while connecting to server cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.mongodb.MongoSocketException: cdb-ms-prod-eastus2-fd11.documents.azure.com
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:188)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: cdb-ms-prod-eastus2-fd11.documents.azure.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at java.net.InetAddress.getByName(InetAddress.java:1077)
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:186)
+	... 5 common frames omitted
+2019-05-03 15:52:38  INFO - Opened connection [connectionId{localValue:5, serverValue:-249314560}] to cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:52:38  INFO - Monitor thread successfully connected to server with description ServerDescription{address=cdb-ms-prod-eastus2-fd11.documents.azure.com:10255, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 0]}, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=168550300, setName='globaldb', canonicalAddress=cdb-ms-prod-eastus2-fd11.documents.azure.com:10255, hosts=[cdb-ms-prod-eastus2-fd11.documents.azure.com:10255], passives=[], arbiters=[], primary='cdb-ms-prod-eastus2-fd11.documents.azure.com:10255', tagSet=TagSet{[]}, electionId=null, setVersion=1, lastWriteDate=null, lastUpdateTimeNanos=5047930979700} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:52:38  INFO - Discovered replica set primary cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:53:29  INFO - Exception in monitor thread while connecting to server cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.mongodb.MongoSocketException: cdb-ms-prod-eastus2-fd11.documents.azure.com
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:188)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: cdb-ms-prod-eastus2-fd11.documents.azure.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at java.net.InetAddress.getByName(InetAddress.java:1077)
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:186)
+	... 5 common frames omitted
+2019-05-03 15:53:41  INFO - Opened connection [connectionId{localValue:7, serverValue:-832128103}] to cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:53:41  INFO - Monitor thread successfully connected to server with description ServerDescription{address=cdb-ms-prod-eastus2-fd11.documents.azure.com:10255, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 0]}, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=169103200, setName='globaldb', canonicalAddress=cdb-ms-prod-eastus2-fd11.documents.azure.com:10255, hosts=[cdb-ms-prod-eastus2-fd11.documents.azure.com:10255], passives=[], arbiters=[], primary='cdb-ms-prod-eastus2-fd11.documents.azure.com:10255', tagSet=TagSet{[]}, electionId=null, setVersion=1, lastWriteDate=null, lastUpdateTimeNanos=5110227595600} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:53:41  INFO - Discovered replica set primary cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:59:18  INFO - Exception in monitor thread while connecting to server cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.mongodb.MongoSocketException: cdb-ms-prod-eastus2-fd11.documents.azure.com
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:188)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: cdb-ms-prod-eastus2-fd11.documents.azure.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at java.net.InetAddress.getByName(InetAddress.java:1077)
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:186)
+	... 5 common frames omitted
+2019-05-03 15:59:43  INFO - Opened connection [connectionId{localValue:10, serverValue:-1190611518}] to cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:59:43  INFO - Monitor thread successfully connected to server with description ServerDescription{address=cdb-ms-prod-eastus2-fd11.documents.azure.com:10255, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 0]}, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=173058300, setName='globaldb', canonicalAddress=cdb-ms-prod-eastus2-fd11.documents.azure.com:10255, hosts=[cdb-ms-prod-eastus2-fd11.documents.azure.com:10255], passives=[], arbiters=[], primary='cdb-ms-prod-eastus2-fd11.documents.azure.com:10255', tagSet=TagSet{[]}, electionId=null, setVersion=1, lastWriteDate=null, lastUpdateTimeNanos=5472418254100} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 15:59:43  INFO - Discovered replica set primary cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:00:21  INFO - Get Provider Cache request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:00:21  INFO - Attempting to retrieve the menu from cache - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:00:26  INFO - Opened connection [connectionId{localValue:11, serverValue:1140773732}] to cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:00:26  INFO - Attempting to cache the list of the providers - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:00:27  INFO - Serving the cache from DB - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:00:27  INFO - Sending Provider Retrieve Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:00:27  INFO - Provider Retrieve successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:16  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 2232 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:16  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:18  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:18  INFO - Finished Spring Data repository scanning in 108ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:19  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:19  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:19  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:19  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:19  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:19  INFO - Root WebApplicationContext: initialization completed in 3070 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:21  INFO - Cluster created with settings {hosts=[api-tottus-retail.documents.azure.com:10255], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='globaldb'} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:21  INFO - Adding discovered server api-tottus-retail.documents.azure.com:10255 to client view of cluster - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:21  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:21  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:21  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:21  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:21  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:21  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:23  INFO - Opened connection [connectionId{localValue:1, serverValue:559433453}] to api-tottus-retail.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:23  INFO - Monitor thread successfully connected to server with description ServerDescription{address=api-tottus-retail.documents.azure.com:10255, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 0]}, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=173394200, setName='globaldb', canonicalAddress=cdb-ms-prod-eastus2-fd11.documents.azure.com:10255, hosts=[cdb-ms-prod-eastus2-fd11.documents.azure.com:10255], passives=[], arbiters=[], primary='cdb-ms-prod-eastus2-fd11.documents.azure.com:10255', tagSet=TagSet{[]}, electionId=null, setVersion=1, lastWriteDate=null, lastUpdateTimeNanos=5812262468100} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:23  INFO - Adding discovered server cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 to client view of cluster - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:23  INFO - Server api-tottus-retail.documents.azure.com:10255 is no longer a member of the replica set.  Removing from client view of cluster. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:23  INFO - Canonical address cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 does not match server address.  Removing api-tottus-retail.documents.azure.com:10255 from client view of cluster - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:23  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:23  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:23  INFO - Created MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:23  INFO - Creating MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:23  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:23  INFO - Creating core message sender to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:23  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:23  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:24  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:24  INFO - Opened send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:24  INFO - Created MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:24  INFO - Created topic client to connection string 'Endpoint=sb://azure-tottus.servicebus.windows.net/;EntityPath=top-provider;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:24  INFO - Opened connection [connectionId{localValue:2, serverValue:370624495}] to cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:25  INFO - Monitor thread successfully connected to server with description ServerDescription{address=cdb-ms-prod-eastus2-fd11.documents.azure.com:10255, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 0]}, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=257139400, setName='globaldb', canonicalAddress=cdb-ms-prod-eastus2-fd11.documents.azure.com:10255, hosts=[cdb-ms-prod-eastus2-fd11.documents.azure.com:10255], passives=[], arbiters=[], primary='cdb-ms-prod-eastus2-fd11.documents.azure.com:10255', tagSet=TagSet{[]}, electionId=null, setVersion=1, lastWriteDate=null, lastUpdateTimeNanos=5814042261500} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:25  INFO - Setting max set version to 1 from replica set primary cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:25  INFO - Discovered replica set primary cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:25  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:25  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:25  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:25  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:25  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:25  INFO - Starting ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:25  INFO - Tomcat started on port(s): 8084 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:05:25  INFO - Started ProviderApiApplication in 9.676 seconds (JVM running for 11.464) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:06:24  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:06:24  INFO - Initializing Servlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:06:24  INFO - Completed initialization in 6 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:06:54  INFO - Get Provider Cache request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:06:54  INFO - Attempting to retrieve the providers from cache - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:06:56 ERROR - Cache content is of unknown format: [{"name":"PineApple","rut":"24527271-1","country":"PE"},{"name":"Banana","rut":"24527271-3","country":"PE"}] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:06:58  INFO - Opened connection [connectionId{localValue:3, serverValue:-1708372527}] to cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:06:59  INFO - Attempting to cache the list of the providers - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:07:00  INFO - Serving the cache from DB - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:07:00  INFO - Sending Provider Retrieve Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:07:00  INFO - Provider Retrieve successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:08:35  INFO - Get Provider Cache request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:08:35  INFO - Attempting to retrieve the providers from cache - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:08:36 ERROR - Cache content is of unknown format: [{"name":"PineApple","rut":"24527271-1","country":"PE"},{"name":"Banana","rut":"24527271-3","country":"PE"}] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:08:36  INFO - Attempting to cache the list of the providers - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:08:37  INFO - Serving the cache from DB - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:08:37  INFO - Sending Provider Retrieve Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:08:37  INFO - Provider Retrieve successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:41  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 19192 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:41  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:43  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:43  INFO - Finished Spring Data repository scanning in 65ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:44  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:44  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:44  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:44  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:44  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:44  INFO - Root WebApplicationContext: initialization completed in 2710 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:46  INFO - Cluster created with settings {hosts=[api-tottus-retail.documents.azure.com:10255], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='globaldb'} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:46  INFO - Adding discovered server api-tottus-retail.documents.azure.com:10255 to client view of cluster - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:47  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:47  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:47  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:47  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:47  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:47  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:48  INFO - Opened connection [connectionId{localValue:1, serverValue:607298044}] to api-tottus-retail.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:48  INFO - Monitor thread successfully connected to server with description ServerDescription{address=api-tottus-retail.documents.azure.com:10255, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 0]}, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=173412900, setName='globaldb', canonicalAddress=cdb-ms-prod-eastus2-fd11.documents.azure.com:10255, hosts=[cdb-ms-prod-eastus2-fd11.documents.azure.com:10255], passives=[], arbiters=[], primary='cdb-ms-prod-eastus2-fd11.documents.azure.com:10255', tagSet=TagSet{[]}, electionId=null, setVersion=1, lastWriteDate=null, lastUpdateTimeNanos=6377799389500} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:48  INFO - Adding discovered server cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 to client view of cluster - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:48  INFO - Server api-tottus-retail.documents.azure.com:10255 is no longer a member of the replica set.  Removing from client view of cluster. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:48  INFO - Canonical address cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 does not match server address.  Removing api-tottus-retail.documents.azure.com:10255 from client view of cluster - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:48  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:48  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:48  INFO - Created MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:48  INFO - Creating MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:48  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:48  INFO - Creating core message sender to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:49  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:49  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:49  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:49  INFO - Opened send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:49  INFO - Created MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:49  INFO - Created topic client to connection string 'Endpoint=sb://azure-tottus.servicebus.windows.net/;EntityPath=top-provider;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:50  INFO - Opened connection [connectionId{localValue:2, serverValue:-880913144}] to cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:50  INFO - Monitor thread successfully connected to server with description ServerDescription{address=cdb-ms-prod-eastus2-fd11.documents.azure.com:10255, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 0]}, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=206205000, setName='globaldb', canonicalAddress=cdb-ms-prod-eastus2-fd11.documents.azure.com:10255, hosts=[cdb-ms-prod-eastus2-fd11.documents.azure.com:10255], passives=[], arbiters=[], primary='cdb-ms-prod-eastus2-fd11.documents.azure.com:10255', tagSet=TagSet{[]}, electionId=null, setVersion=1, lastWriteDate=null, lastUpdateTimeNanos=6379370298700} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:50  INFO - Setting max set version to 1 from replica set primary cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:50  INFO - Discovered replica set primary cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:50  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:50  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:50  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:50  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:50  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:50  INFO - Starting ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:50  INFO - Tomcat started on port(s): 8084 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:14:50  INFO - Started ProviderApiApplication in 9.873 seconds (JVM running for 12.759) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:15:07  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:15:07  INFO - Initializing Servlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:15:07  INFO - Completed initialization in 7 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:15:39  INFO - Get Provider Cache request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:15:39  INFO - Attempting to retrieve the providers from cache - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:15:42  INFO - Cache Data: [{"name":"PineApple","rut":"24527271-1","country":"PE"},{"name":"Banana","rut":"24527271-3","country":"PE"}] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:15:42 ERROR - Cache content is of unknown format: [{"name":"PineApple","rut":"24527271-1","country":"PE"},{"name":"Banana","rut":"24527271-3","country":"PE"}] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:15:44  INFO - Opened connection [connectionId{localValue:3, serverValue:-397421265}] to cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:15:44  INFO - Attempting to cache the list of the providers - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:15:45  INFO - Serving the cache from DB - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:15:45  INFO - Sending Provider Retrieve Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:15:45  INFO - Provider Retrieve successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:24  INFO - Starting ProviderApiApplication on NPHTIVT01 with PID 16196 (X:\Entregables\8.SUP\TottusApi\out\production\classes started by _lruizda in X:\Entregables\8.SUP\TottusApi) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:24  INFO - No active profile set, falling back to default profiles: default - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:25  INFO - Bootstrapping Spring Data repositories in DEFAULT mode. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:25  INFO - Finished Spring Data repository scanning in 60ms. Found 1 repository interfaces. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:25  INFO - Tomcat initialized with port(s): 8084 (http) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:25  INFO - Initializing ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:25  INFO - Starting service [Tomcat] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:25  INFO - Starting Servlet engine: [Apache Tomcat/9.0.17] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:25  INFO - Initializing Spring embedded WebApplicationContext - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:25  INFO - Root WebApplicationContext: initialization completed in 1669 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:27  INFO - Cluster created with settings {hosts=[api-tottus-retail.documents.azure.com:10255], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='globaldb'} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:27  INFO - Adding discovered server api-tottus-retail.documents.azure.com:10255 to client view of cluster - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:27  INFO - Creating MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:27  INFO - Creating messaging factory from namespace endpoint uri 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:27  INFO - Creating and starting reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:27  INFO - Started reactor - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:27  INFO - starting reactor instance. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:27  INFO - Creating connection to host 'azure-tottus.servicebus.windows.net:5671' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:29  INFO - Opened connection [connectionId{localValue:1, serverValue:1451952665}] to api-tottus-retail.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:29  INFO - MessagingFactory opened. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:29  INFO - Connection opened to host. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:29  INFO - Created MessagingFactory to namespace 'sb://azure-tottus.servicebus.windows.net/' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:29  INFO - Creating MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:29  INFO - Creating CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:29  INFO - Creating core message sender to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:29  INFO - Monitor thread successfully connected to server with description ServerDescription{address=api-tottus-retail.documents.azure.com:10255, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 0]}, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=220248400, setName='globaldb', canonicalAddress=cdb-ms-prod-eastus2-fd11.documents.azure.com:10255, hosts=[cdb-ms-prod-eastus2-fd11.documents.azure.com:10255], passives=[], arbiters=[], primary='cdb-ms-prod-eastus2-fd11.documents.azure.com:10255', tagSet=TagSet{[]}, electionId=null, setVersion=1, lastWriteDate=null, lastUpdateTimeNanos=6658227602100} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:29  INFO - Adding discovered server cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 to client view of cluster - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:29  INFO - Server api-tottus-retail.documents.azure.com:10255 is no longer a member of the replica set.  Removing from client view of cluster. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:29  INFO - Canonical address cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 does not match server address.  Removing api-tottus-retail.documents.azure.com:10255 from client view of cluster - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:29  INFO - Opened requestresponselink to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:29  INFO - Created CBS link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:29  INFO - Creating send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:30  INFO - Opened send link to 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:30  INFO - Created MessageSender to entity 'top-provider' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:30  INFO - Created topic client to connection string 'Endpoint=sb://azure-tottus.servicebus.windows.net/;EntityPath=top-provider;' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:30  INFO - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:30  INFO - Initializing ExecutorService 'applicationTaskExecutor' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:30  INFO - Opened connection [connectionId{localValue:2, serverValue:241693539}] to cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:30  INFO - Context refreshed - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:30  INFO - Found 1 custom documentation plugin(s) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:30  INFO - Scanning for api listing references - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:30  INFO - Monitor thread successfully connected to server with description ServerDescription{address=cdb-ms-prod-eastus2-fd11.documents.azure.com:10255, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 2, 0]}, minWireVersion=0, maxWireVersion=2, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=null, roundTripTimeNanos=188662400, setName='globaldb', canonicalAddress=cdb-ms-prod-eastus2-fd11.documents.azure.com:10255, hosts=[cdb-ms-prod-eastus2-fd11.documents.azure.com:10255], passives=[], arbiters=[], primary='cdb-ms-prod-eastus2-fd11.documents.azure.com:10255', tagSet=TagSet{[]}, electionId=null, setVersion=1, lastWriteDate=null, lastUpdateTimeNanos=6659662757100} - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:30  INFO - Setting max set version to 1 from replica set primary cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:30  INFO - Discovered replica set primary cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:30  INFO - Starting ProtocolHandler ["http-nio-8084"] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:30  INFO - Tomcat started on port(s): 8084 (http) with context path '' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:30  INFO - Started ProviderApiApplication in 7.136 seconds (JVM running for 8.525) - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:44  INFO - Initializing Spring DispatcherServlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:44  INFO - Initializing Servlet 'dispatcherServlet' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:44  INFO - Completed initialization in 8 ms - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:57  INFO - Get Provider Cache request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:57  INFO - Attempting to retrieve the providers from cache - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:59  INFO - Cache Data: [{"name":"PineApple","rut":"24527271-1","country":"PE"},{"name":"Banana","rut":"24527271-3","country":"PE"}] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:59  INFO - Serving the provider from cache - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:59  INFO - Sending Provider Retrieve Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:19:59  INFO - Provider Retrieve successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:20:16  INFO - Get Provider Cache request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:20:16  INFO - Attempting to retrieve the providers from cache - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:20:17  INFO - Cache Data: [{"name":"PineApple","rut":"24527271-1","country":"PE"},{"name":"Banana","rut":"24527271-3","country":"PE"}] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:20:17  INFO - Serving the provider from cache - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:20:17  INFO - Sending Provider Retrieve Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:20:17  INFO - Provider Retrieve successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:22:00  INFO - Get Provider Cache request. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:22:00  INFO - Attempting to retrieve the providers from cache - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:22:02  INFO - Cache Data: [{"name":"PineApple","rut":"24527271-1","country":"PE"},{"name":"Banana","rut":"24527271-3","country":"PE"}] - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:22:02  INFO - Serving the provider from cache - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:22:02  INFO - Sending Provider Retrieve Event  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:22:02  INFO - Provider Retrieve successful  - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:29:30  WARN - Send link to 'top-provider' closed. Failing all pending send requests. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:34:30  WARN - Internal send link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:e9d7013741424204a78d22f80635531e_G51, SystemTracker:gateway7, Timestamp:2019-05-03T21:34:30', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalSender.onClose(RequestResponseLink.java:837)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-03 16:34:30  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:34:30  WARN - Internal receive link of requestresponselink to '$cbs' closed with error. - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.microsoft.azure.servicebus.primitives.ServiceBusException: Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:e9d7013741424204a78d22f80635531e_G51, SystemTracker:gateway7, Timestamp:2019-05-03T21:34:30', info=null}
+	at com.microsoft.azure.servicebus.primitives.ExceptionUtil.toException(ExceptionUtil.java:113)
+	at com.microsoft.azure.servicebus.primitives.RequestResponseLink$InternalReceiver.onClose(RequestResponseLink.java:630)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.processOnClose(BaseLinkHandler.java:68)
+	at com.microsoft.azure.servicebus.amqp.BaseLinkHandler.onLinkRemoteClose(BaseLinkHandler.java:42)
+	at org.apache.qpid.proton.engine.BaseHandler.handle(BaseHandler.java:176)
+	at org.apache.qpid.proton.engine.impl.EventImpl.dispatch(EventImpl.java:108)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.dispatch(ReactorImpl.java:309)
+	at org.apache.qpid.proton.reactor.impl.ReactorImpl.process(ReactorImpl.java:276)
+	at com.microsoft.azure.servicebus.primitives.MessagingFactory$RunReactor.run(MessagingFactory.java:481)
+	at java.lang.Thread.run(Thread.java:748)
+2019-05-03 16:34:30  WARN - Completing all pending requests with exception in request response link to $cbs - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:34:30 ERROR - Connection error. 'Error{condition=amqp:connection:forced, description='The connection was inactive for more than the allowed 300000 milliseconds and is closed by container 'LinkTracker'. TrackingId:e9d7013741424204a78d22f80635531e_G51, SystemTracker:gateway7, Timestamp:2019-05-03T21:34:30', info=null}' - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:34:30  INFO - Closing connection to host - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+2019-05-03 16:54:17  INFO - Exception in monitor thread while connecting to server cdb-ms-prod-eastus2-fd11.documents.azure.com:10255 - txEpd= txRef= cmRef= nodeRef= usrTx= rhsRef= commerce= country= 
+com.mongodb.MongoSocketException: cdb-ms-prod-eastus2-fd11.documents.azure.com
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:188)
+	at com.mongodb.internal.connection.SocketStreamHelper.initialize(SocketStreamHelper.java:64)
+	at com.mongodb.internal.connection.SocketStream.open(SocketStream.java:62)
+	at com.mongodb.internal.connection.InternalStreamConnection.open(InternalStreamConnection.java:126)
+	at com.mongodb.internal.connection.DefaultServerMonitor$ServerMonitorRunnable.run(DefaultServerMonitor.java:131)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: cdb-ms-prod-eastus2-fd11.documents.azure.com
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:929)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1324)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1277)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1193)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1127)
+	at java.net.InetAddress.getByName(InetAddress.java:1077)
+	at com.mongodb.ServerAddress.getSocketAddress(ServerAddress.java:186)
+	... 5 common frames omitted
